@@ -9,5 +9,6 @@ class StrongPasswordTest {
     @Test
     void testMinimumNumber(){
         assertEquals(3, Result.minimumNumber(3, "Ab1"));
+        assertEquals(1, Result.minimumNumber(11, "#HackerRank"));
     }
 }
